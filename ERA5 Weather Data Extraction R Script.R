@@ -5,8 +5,8 @@ library(microclima)
 
 #Set my credentials with CDS
 
-UID <- "104850"
-cds_api_key <- "11fcf9f6-8ab9-4b48-9d00-a2edd6806914"
+UID <- ""
+cds_api_key <- ""
 
 ecmwfr::wf_set_key(user=UID, key = cds_api_key, service = "cds")
 
